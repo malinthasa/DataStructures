@@ -8,7 +8,11 @@ import java.util.LinkedHashSet;
  */
 public class TestHashSet {
     public static void main(String[] args) {
+
+        //need to add only identical users
         HashSet<Singer> registeredCompetitors = new HashSet<Singer>();
+
+        // in addition to identical users, we have to preserve firstcome first serve seats
         LinkedHashSet<Person> audience = new LinkedHashSet<Person>();
     }
 }
